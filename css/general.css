@@ -1,0 +1,134 @@
+/*general*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微軟正黑體,Microsoft JhengHei,黑體,SimHei,標楷體,DFKai-SB,BiauKai,全字庫正楷體,TW-Kai,'Source Sans Pro', Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    font-size: 4vmin;
+    background: #e7e8ea;
+    }
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    background: #9e2f35;
+    color: #ffffff;
+    overflow: auto;
+    box-shadow: 5px 5px 10px #1e0c0a;
+    z-index: 10;
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+}
+nav li:not(:last-child)::after{
+    display:inline-block;
+    content:"|";
+    color:#ffffff;
+    margin-left:1em;
+    margin-right:1em;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover,
+nav a:focus{
+    text-decoration: underline;
+}
+
+section{
+    width: 90vw;
+    height: 85vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    overflow: auto;
+}
+section:nth-of-type(even){
+	background: #bdc0c6;
+}
+
+h2{
+	margin-top: 3vh;
+}
+
+h3 img{
+	display: inline-block;
+	height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    color: #9e2f35;
+}
+a:hover,
+a:focus{
+    text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+}
+section ul li:not(.title)::before{
+    display:inline-block;
+    content: url("images/list.png");
+    margin-right: 0.5em;
+}
+li{
+	text-align: left;
+}
+li.title{
+	list-style: none;
+	background: #9e2f35;
+	border-radius: 20px;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 3vh;
+}
+
+hr{
+	color: #9e2f35;
+	background-color: #9e2f35;
+	border: 0 none;
+	width: 70vw;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3vh;
+	margin-bottom: 5vh;
+}
+
+.content{
+	width: 70vw;
+	height: 70vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	position: absolute;
+    overflow: auto;
+}
+
+.left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 32vw;
+}
+
+.right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 32vw;
+}
