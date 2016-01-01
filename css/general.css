@@ -32,7 +32,6 @@ section{
     width: 90vw;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 15vh;
     padding-bottom: 5vh;
     text-align: center;
 }
@@ -41,7 +40,6 @@ h2{
     margin-left: 10vw;
     margin-right: 10vw;
     width: 70vw;
-	margin-top: 3vh;
     margin-bottom: 5vh;
     padding-bottom: 3vh;
     border-bottom: solid 3px #9e2f35;

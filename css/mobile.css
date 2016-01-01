@@ -20,6 +20,10 @@ nav li{
 img{
 	 max-width: 100%;
 }
+
+section{
+    padding-top: 5vh;
+}
 section#home{
 	height: 90vh;
 }
@@ -27,6 +31,10 @@ section#home{
 div iframe{
 	width: 0;
 	height: 0;
+}
+
+h2{
+	margin-top: 0;
 }
 
 .content{

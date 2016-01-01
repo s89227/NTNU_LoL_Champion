@@ -25,9 +25,14 @@ nav a:not(:last-child)::after{
 
 section{
     height: 85vh;
+    padding-top: 15vh;
 }
 section:nth-of-type(even){
 	background: #bdc0c6;
+}
+
+h2{
+	margin-top: 3vh;
 }
 
 .content{
