@@ -81,12 +81,18 @@ li.title{
 	margin-bottom: 3vh;
 }
 
+div iframe{
+    border: medium none;
+    width: 32vw;
+    height: 60vh;
+}
+
 .select{
     text-align: center;
     font-size: 0.5em;
     position: fixed;
     right: 0;
-    top: 0;
+    top: 5vh;
     width: 5vw;
     padding: 5px;
     border-radius: 20px;
