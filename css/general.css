@@ -82,7 +82,13 @@ li.title{
 }
 
 .select{
+    text-align: center;
+    font-size: 0.5em;
     position: fixed;
     right: 0;
     top: 0;
+    width: 5vw;
+    padding: 5px;
+    border-radius: 20px;
+    background: rgba(231,232,234,0.3);
 }
