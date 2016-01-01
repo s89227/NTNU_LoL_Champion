@@ -1,0 +1,38 @@
+/* mobile*/
+
+nav{
+	width: 100%;
+	background: #e7e8ea;
+}
+nav li{
+	width: 100%;
+	height: calc(100vh/6 - 6px);
+	background: #9e2f35;
+	text-align: center;
+	border-radius: 20px;
+	margin: 2px;
+	line-height: calc(100vh/6 - 6px);
+}
+
+.content img{
+	 width: 100%;
+}
+section#home{
+	height: 90vh;
+}
+
+.content{
+	width: 60vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	height: auto;
+}
+.left,
+.right{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.select{
+	visibility: visible;
+}

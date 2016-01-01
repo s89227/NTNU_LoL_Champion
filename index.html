@@ -9,27 +9,29 @@
 	<link rel="icon" type="image/x-icon" href="images/game.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="images/game.ico">
     <link rel="stylesheet" type="text/css" href="css/general.css">
-    <link media="(min-width: 1024px)" rel="stylesheet" type="text/css" href="css/desktop.css">
-    <link media="(max-width: 1024px)" rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link media="(min-width: 767px)" rel="stylesheet" type="text/css" href="css/desktop.css">
+    <link media="(max-width: 767px)" rel="stylesheet" type="text/css" href="css/mobile.css">
 </head>
 <body>
+    <div class="select">
+        <div style="width:5vw; height:5vw; background:rgba(0,0,0,0.2); border-radius:1vw; border: 2px solid rgba(0,0,0,0.4);"></div>
+    </div>
 	<section id="home">
 		<img src="images/LOL.png" style="margin-top:5vh;margin-bottom:5vh;">
 		<h1>臺師大英雄聯盟校內賽</h1>
 		<h3>主辦單位：<a href="https://www.facebook.com/NTNUstudentA/" target="_blank"><img src="images/logo.png" alt="國立台灣師範大學學生自治會"></a></h3>
 		<h3>協辦單位：<a href="http://www.garena.tw/" target="_blank"><img src="images/gerena.png" alt="Gerena"></a></h3>
 	</section>
-    <nav><ul>
-        <li><a href="#home">首頁</a></li>
-        <li><a href="#final">決賽資訊</a></li>
-        <li><a href="#rules">比賽規則</a></li>
-        <li><a href="#team">團隊賽</a></li>
-        <li><a href="#midlane">中路單挑賽</a></li>
-        <li><a href="#conect">聯絡我們</a></li>
+    <nav id="#nav"><ul>
+        <a href="#home"><li>首頁</li></a>
+        <a href="#final"><li>決賽資訊</li></a>
+        <a href="#rules"><li>比賽規則</li></a>
+        <a href="#team"><li>團隊賽</li></a>
+        <a href="#midlane"><li>中路單挑賽</li></a>
+        <a href="#conect"><li>聯絡我們</li></a>
     </ul></nav>
 	<section id="final">
 		<h2>決賽資訊</h2>
-		<hr>
 		<div class="content">
 			<img src="images/place.jpg" class="left" style="border-radius:20px;">
 			<ul class="right">
@@ -45,7 +47,6 @@
 	</section>
 	<section id="rules">
 		<h2>比賽規則</h2>
-		<hr>
 		<div class="content">
 			<ul class="left">
 				<li class="title">團隊賽規則</li>
@@ -70,19 +71,16 @@
 	</section>
 	<section id="team">
 		<h2>團隊賽</h2>
-		<hr>
 		<p>網頁內容製作中，敬請期待！</p>
 	</section>
 	<section id="midlane">
 		<h2>中路單挑賽</h2>
-		<hr>
 		<p>網頁內容製作中，敬請期待！</p>
 	</section>
 	<section id="conect">
 		<h2>聯絡我們</h2>
-		<hr>
 		<div class="content">
-			<iframe class="left" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df263633f0499a48%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff21edd384ef95dc%26relation%3Dparent.parent&amp;container_width=613&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Flolntnu&amp;locale=zh_TW&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline%2C%20messages" style="border: medium none; visibility: visible; width: 350px; height: 60vh; margin-left:5vw;" title="fb:page Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fe0e02711e6f6" frameborder="0" height="1000px" width="1000px"></iframe>
+			<iframe class="left" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df263633f0499a48%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff21edd384ef95dc%26relation%3Dparent.parent&amp;container_width=613&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Flolntnu&amp;locale=zh_TW&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline%2C%20messages" style="border: medium none; visibility: visible; width: 350px; height: 60vh;" title="fb:page Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fe0e02711e6f6" frameborder="0" height="1000px" width="1000px"></iframe>
 			<ul class="right">
 			<li class="title">聯絡方式</li>
 			<li><a href="https://www.facebook.com/lolntnu/" target="_blank">Facebook粉絲專頁</a></li>

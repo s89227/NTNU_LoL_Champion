@@ -1,0 +1,56 @@
+/*desktop*/
+
+nav{
+    background: #9e2f35;
+    line-height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    overflow: auto;
+    box-shadow: 5px 5px 10px #1e0c0a;
+    z-index: 10;
+}
+nav li{
+    display: inline-block;
+}
+nav a:not(:last-child)::after{
+    display:inline-block;
+    content:"|";
+    color:#ffffff;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+section{
+    height: 85vh;
+}
+section:nth-of-type(even){
+	background: #bdc0c6;
+}
+
+.content{
+	position: absolute;
+    overflow: auto;
+	height: 70vh;
+	width: 70vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+.left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 32vw;
+}
+.right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 32vw;
+}
+
+.select{
+	visibility: hidden;
+}
