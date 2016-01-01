@@ -17,8 +17,8 @@ nav li{
 	line-height: calc(95vh/6);
 }
 
-.content img{
-	 width: 100%;
+img{
+	 max-width: 100%;
 }
 section#home{
 	height: 90vh;
