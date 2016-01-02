@@ -21,7 +21,8 @@ section{
     padding-top: 5vh;
 }
 section#home{
-	height: 90vh;
+	min-height: 90vh;
+	height: auto;
 }
 
 div iframe{
