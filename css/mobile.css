@@ -17,10 +17,6 @@ nav li{
 	line-height: calc(95vh/6);
 }
 
-img{
-	 max-width: 100%;
-}
-
 section{
     padding-top: 5vh;
 }
